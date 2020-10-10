@@ -1,0 +1,25 @@
+{
+  "name": "amazon-inf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "run.ts",
+  "scripts": {
+    "start": "testcafe chrome run.ts",
+    "start-qr": "testcafe remote run.ts --qr-code",
+    "start-remote": "testcafe remote run.ts",
+    "start-headless": "testcafe \"chrome:headless\" run.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8z8/Amazon-Inf.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/8z8/Amazon-Inf/issues"
+  },
+  "homepage": "https://github.com/8z8/Amazon-Inf#readme",
+  "devDependencies": {
+    "testcafe": "^1.9.4"
+  }
+}
