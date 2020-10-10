@@ -4,10 +4,10 @@
   "description": "",
   "main": "run.ts",
   "scripts": {
-    "start": "testcafe chrome run.ts",
-    "start-qr": "testcafe remote run.ts --qr-code",
-    "start-remote": "testcafe remote run.ts",
-    "start-headless": "testcafe \"chrome:headless\" run.ts"
+    "start": "testcafe chrome run.ts --skip-js-errors",
+    "start-qr": "testcafe remote run.ts --skip-js-errors --qr-code",
+    "start-remote": "testcafe remote run.ts --skip-js-errors",
+    "start-headless": "testcafe \"chrome:headless\" run.ts --skip-js-errors"
   },
   "repository": {
     "type": "git",
