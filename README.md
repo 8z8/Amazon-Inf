@@ -18,4 +18,8 @@ pnpm run start
 ```
 ### Hint
 -: It is possible to process multiple times by looping in `run.ts`.
--: Two-step verification should be completed in less than 60 seconds. (It is just a guide.)
+<br>-: Two-step verification should be completed in less than 60 seconds. (It is just a guide.)
+
+## Respect
+### Thanks To
+#### TestCafe
